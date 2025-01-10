@@ -230,3 +230,58 @@ body{
     margin-bottom: 0px;
 }
 /*  recent container section end */
+/* Donate Today section */
+.tk_amount{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 24px;
+    padding: 0 104px;
+    margin-top: 32px;
+}
+.taka{
+    background-color: white;
+    padding: 40px;
+    border: none;
+    border-radius: 16px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.taka:hover{
+    background-color: rgba(198, 228, 214, 1);
+    cursor: cell;
+}
+input[type=text]{
+    width: 950px;
+    height: 20px;
+    justify-content: center;
+    display: inline;
+    margin: 32px 124px;
+    background-color: white;
+    border: none;
+    padding: 20px 40px;
+}
+input::placeholder{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+}
+.donate_btn{
+    background-color: #006A50;
+}
+.center{
+    justify-content: center;
+    text-align: center;
+}
+.donate_h{
+    margin-top: 80px;
+    margin-bottom: 0px;
+    text-align: center;
+    
+}
+.donate_p{
+    margin-top: 24px;
+    text-align: center;
+    padding: 0 88px;
+    margin-bottom: 0px;
+}
