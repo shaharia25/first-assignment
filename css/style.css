@@ -1,5 +1,5 @@
 body{
-    max-width: 1600px;
+    max-width: 1280px;
     margin: 0 auto;
     background-color: #F1F1F3;
 }
@@ -28,6 +28,41 @@ body{
     font-style: normal;
     }
 /* font container add */
+/* shared style start */
+.all_heading{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0E0E0E;
+}
+.all_paragraph{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.vision_heading{
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(14, 14, 14, 0.8);
+}
+.common_btn{
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    padding: 11px 20px;
+}
+.vision_mg{
+    margin-top: 32px;
+}
+.vison_pdd{
+    padding-left: 32px;
+    padding-right: 32px;
+}
+.bold_32{
+    font-weight: bold;
+    font-size: 32px;
+}
 /* head section design start */
 .head_section{
     display: flex;
@@ -96,3 +131,102 @@ body{
     top: 80px;
 }
 /* banner design end */
+
+/* second section start */
+.second_section{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.sector_of_vision{
+    display: grid;
+    height: 325px;
+    grid-template-columns: 410px 410px 410px;
+    column-gap: 24px;
+}
+.future_heading{
+    margin-bottom: 0px;
+}
+.vison_paragraph{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    line-height: 1.9;
+}
+.digital_tr{
+    background-color: rgba(84, 144, 245, 0.2);
+    border: none;
+    border-radius: 16px;
+}
+.dg_btn{
+    background-color: #5490F5;
+}
+.green_en{
+    background-color: rgba(198, 228, 214, 1);
+    border: none;
+    border-radius: 16px;
+}
+.gr_btn{
+    background-color: #006A50;
+}
+.modern_in{
+    background-color: rgba(247, 235, 207, 1);
+    border: none;
+    border-radius: 16px;
+}
+.mo_btn{
+    background-color: #FFC239;
+}
+/* second section end */
+
+/* recent news container  start */
+.recent_container{
+    display: flex;
+    gap: 32px;
+    background-color: #FFFFFF;
+    padding: 48px;
+    margin-bottom: 0px;
+    border: none;
+    border-radius: 24px;
+    margin-top: 32px;
+}
+.recent_news_h{
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+.recent_p{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.img_radius{
+    border: none;
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.padding{
+    padding: 48px;
+}
+.new_satelite{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.aljazeera{
+    margin-bottom: 12px;
+}
+.date_time{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+.satelite_p{
+    margin-top: 0px;
+    line-height: 1.5;
+    margin-bottom: 0px;
+}
+.read_more{
+    margin-top: 32px;
+    background-color: #006A50;
+}
+.recent_container1{
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+/*  recent container section end */
