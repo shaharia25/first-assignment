@@ -1,0 +1,98 @@
+body{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #F1F1F3;
+}
+/* font container */
+.fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+    }
+
+.fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+    }
+
+.fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    }
+/* font container add */
+/* head section design start */
+.head_section{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 20px;
+
+}
+.page_title{
+    font-size: 32px;
+    font-weight:700;
+    color: #0E0E0E;
+}
+.sign_up_btn{
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    color: #006A50;
+    font-weight: 600px;
+    font-size: 18px;
+    
+}
+/* head section design end */
+
+/*  banner design start */
+.banner_container{
+    background-color:#C6E4D6;
+    height: 560px ;
+    border: none;
+    border-radius: 24px;
+    position: relative;
+    margin-top: 0px;
+}
+.banner_content{
+    width: 622px;
+    height: 322px;
+    position: absolute;
+    left: 58px;
+    top: 100px;
+}
+.page_title2_0{
+    font-size: 24px;
+    font-weight:500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 0;
+}
+.title_moto{
+    font-size: 56px;
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+.explore_bd_btn{
+    background-color:#006A50 ;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 17px 34px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+.banner_img{
+    position: absolute;
+    right: 58px;
+    top: 80px;
+}
+/* banner design end */
