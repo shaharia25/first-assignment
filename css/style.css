@@ -38,6 +38,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
+    line-height: 1.5;
 }
 .vision_heading{
     font-weight: bold;
@@ -230,7 +231,8 @@ body{
     margin-bottom: 0px;
 }
 /*  recent container section end */
-/* Donate Today section */
+
+/* Donate Today section  start*/
 .tk_amount{
     display: grid;
     grid-template-columns: auto auto auto auto;
@@ -285,3 +287,102 @@ input::placeholder{
     padding: 0 88px;
     margin-bottom: 0px;
 }
+/* donate today section end */
+.newsletter_container{
+    background-color: rgba(198, 228, 214, 1);
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 24px;
+    margin-top: 80px;
+}
+.news_h{
+    margin-bottom: 0px;
+}
+.news_p{
+    margin-top: 16px;
+    line-height: 1.5;
+    margin-bottom:24px;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 56px;
+    align-items: center;
+    margin: 0 auto;
+}
+.input_div{
+    width:600px;
+    height: 100%;
+
+}
+.sub_email{
+    width:600px;
+    height: 100%;
+    border: transparent;
+    background-color:white;
+    border-radius: 0px 0px 10px 0px;
+}
+input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 40px;
+
+}
+.btn_div{
+    width: 150px;
+    height: 56px;
+}
+.subcribe_btn{
+    width: 150px;
+    height: 56px;
+    border-radius: 0 8px 8px 0px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #006A50;
+}
+.we_not{
+    text-align: center;
+    margin-top: 24px;
+}
+/* block quote section */
+.blockquote_sec{
+    background-color: white;
+    height: 256px;
+    margin-top: 80px;
+    border: none;
+    border-radius: 16px;
+    position: relative;
+}
+.quote_bg{
+    position: absolute;
+    top: 25px;
+    left: 24px;
+}
+.quote_content{
+    position: absolute;
+    left: 24px;
+    top:35px
+}
+.qoute_p{
+    padding-right: 24px;
+    text-align: justify;
+    margin-bottom: 0px;
+}
+.dr_yunus{
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: 600px;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 0px;
+}
+.chief_p{
+    margin-top: 4px;
+}
+/* blockquote section end */
+
