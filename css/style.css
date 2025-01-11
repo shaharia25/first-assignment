@@ -1,7 +1,9 @@
 body{
+    background-color: #F1F1F3;
+}
+main{
     max-width: 1280px;
     margin: 0 auto;
-    background-color: #F1F1F3;
 }
 /* font container */
 .fira-sans-regular {
@@ -358,6 +360,7 @@ input::placeholder{
     border: none;
     border-radius: 16px;
     position: relative;
+    margin-bottom: 0px;
 }
 .quote_bg{
     position: absolute;
@@ -385,4 +388,31 @@ input::placeholder{
     margin-top: 4px;
 }
 /* blockquote section end */
+/* footer section start */
+footer{
+    background-color: white;
+    width: 100%;
+    margin-top: 80px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+.footer_h{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 32px;
+}
+hr{
+    width: 1177px;
+    margin-top: 0px;
+    margin-bottom: 32px;
+}
+.img_container{
+    margin-top: 0px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+/* footer section end */
 
