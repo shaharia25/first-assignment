@@ -5,6 +5,10 @@ main{
     max-width: 1280px;
     margin: 0 auto;
 }
+header{
+    max-width: 1280px;
+    margin: 0 auto;
+}
 /* font container */
 .fira-sans-regular {
     font-family: "Fira Sans", serif;
@@ -289,6 +293,10 @@ input::placeholder{
     padding: 0 88px;
     margin-bottom: 0px;
 }
+.taka_200{
+    background-color: rgba(198, 228, 214, 1);
+    cursor: cell;
+}
 /* donate today section end */
 .newsletter_container{
     background-color: rgba(198, 228, 214, 1);
@@ -318,7 +326,6 @@ input::placeholder{
 .input_div{
     width:600px;
     height: 100%;
-
 }
 .sub_email{
     width:600px;
@@ -388,6 +395,7 @@ input::placeholder{
     margin-top: 4px;
 }
 /* blockquote section end */
+
 /* footer section start */
 footer{
     background-color: white;
@@ -415,4 +423,23 @@ hr{
     gap: 23px;
 }
 /* footer section end */
+
+/* hover section   */
+.dg_btn:hover{
+    opacity: 0.8;
+    transition: opacity 0.15s;
+    cursor: pointer; 
+}
+.common_hvr:hover{
+    opacity: 0.8;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+.mo_btn:hover{
+    opacity: 0.8;
+    transition: opacity 0.15s;
+    cursor: pointer;
+}
+/* hover section end */
+
 
